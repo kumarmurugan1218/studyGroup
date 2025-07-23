@@ -17,9 +17,9 @@ const AnalyticsDashboard = ({storedDetails}) => {
   return (
    <section className=''>
        <h2>Analytics Deshboard</h2> 
-       <div>Total Groups : {storedDetails.length}</div>
-       <div>Total Participants :{participents} </div>
-       <div>group avg:{avg} </div>
+       <div>Total Groups : <span>{storedDetails.length}</span></div>
+       <div>Total Participants : <span>{participents}</span> </div>
+       <div>group avg :  <span>{avg}</span> </div>
     </section>
   )
 }
